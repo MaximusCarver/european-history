@@ -13,14 +13,6 @@ var methodOverride = require("method-override");
 var flash = require("connect-flash");
 
 
-const mongoose = require('mongoose');
-mongoose.connect("mongodb+srv://Andy2436:FaronBokoblin2436@cluster0.nqyom.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
-})
-.then(() => console.log('Connected to DB!'))
-.catch(error => console.log(error.message));
-
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
