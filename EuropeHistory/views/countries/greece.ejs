@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 			 crossorigin="anonymous">
+		<link rel="stylesheet" href="../stylesheets/main.css">
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+	</head>
+	
+	
+	
+	<body class="show-body">
+		
+		
+		
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark homepage-navbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="navbar-brand" href="/countries">Program</a>
+				</li>
+			</ul>
+			
+			<% if(!currentUser) { %>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item ml-auto">
+						<a class="nav-link" href="/login">Login</a>	
+					</li>
+				
+					<li class="nav-item ml-auto">
+						<a class="nav-link" href="register">Register</a>
+					</li>
+				</ul>
+			<% } else { %>
+			
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item homepage-screenNameli">
+						Welcome, <em><%= currentUser.screenName %></em>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="/logout">Logout</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="/account">View Account</a>
+					</li>
+				</ul>
+			
+			<% } %>
+		</nav>
+		
+		
+		
+		
+		
+		<div class="d-flex justify-content-center show-name">
+			<h1 class="show-h1">
+				Greece
+			</h1>
+		</div>
+		
+		<div class="d-flex justify-content-center show-lesson">
+			<h5 class="show-h5">
+				Lesson 23
+			</h5>
+		</div>
+			
+		<div class="d-flex justify-content-center">
+			<img class="show-flag" src="https://cdn.britannica.com/49/1049-004-AE4BAD3E/Flag-Greece.jpg">
+		</div>
+		
+		<div class='d-flex justify-content-center show-firstquickfacth4'>
+			<h4>Capital: Athens</h4>
+		</div>
+		
+		<div class='d-flex justify-content-center show-quickfactsh4'>
+			<h4>Population: 10.7 million</h4>
+		</div>
+		
+		<div class='d-flex justify-content-center show-quickfactsh4'>
+			<h4>Gross Domestic Product (GDP): 210 billion dollars</h4>
+		</div>
+		
+		<div class='d-flex justify-content-center show-quickfactsh4'>
+			<h4>Gross Domestic Product (GDP) Per Capita: 20,000 dollars</h4>
+		</div>
+		
+		
+		
+		<hr class="show-hr1">	
+		
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<figure>
+				<img class="show-img1 show-map" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Greece_in_Europe.svg/1200px-Greece_in_Europe.svg.png">
+				<span class="d-flex justify-content-center">
+				</span>
+			</figure>
+		</div>
+		
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				Greece, officially Hellenic Republic, is a country in South East Europe neighboring Albania, Bulgaria and Turkey. Inhabited since 7000 BC, Greece has been the birthplace of Western democracy, politics, philosophy, literature, drama, many scientific and mathematic principles, and the Olympic Games. Between 3000-1100 BC the Minoans had settled and flourished in Crete. Minoans were the first advanced culture to be settled in Europe. After a couple of thousand years, having been weakened by the massive eruption of the volcanic mountain Santorini, they were eventually taken over by the Mycenaeans from mainland Greece. The Mycenaeans introduced several advanced innovations to the rest of the Mediterranean in the fields of engineering, architecture and trading. However, the Mycenaeans vanished, after a few hundred years, by the end of the 11th century BC, possibly by the invasion of the “Sea People”.
+			</p>
+		</div>
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<figure>
+				<img class="show-img1" src="https://www.realmofhistory.com/wp-content/uploads/2016/05/10-incredible-facts-mycanaean-armies.jpg">
+				<span class="d-flex justify-content-center">
+					<em><figcaption>Mycenaean warriors battling</figcaption></em>
+				</span>
+			</figure>
+		</div>
+		
+		
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				By the 8th century BC Greece was mostly independent states scattered across the entire Mediterranean. In the 4th century BC, Philip of Macedonia and later his son, Alexander the Great, united mainland Greece and conquered land all
+ 
+the way to India. In the 2nd century BC the Romans annexed Greece. Greece became and integral part of Roman history, bridging the Roman Empire to the Byzantine Empire with their language, culture, and Greek Orthodox Church. After falling under the Ottoman Empire around 15th century, Greece finally established independence in 1830.
+			</p>
+		</div>
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<figure>
+				<img class="show-img1" src="https://static.wixstatic.com/media/8dcf0f_3a3a9611a7d845dbab859aaa26cb37ac~mv2.jpg/v1/fill/w_1000,h_714,al_c,q_90,usm_0.66_1.00_0.01/8dcf0f_3a3a9611a7d845dbab859aaa26cb37ac~mv2.jpg">
+				<span class="d-flex justify-content-center">
+					<em><figcaption>Alexander the Great united the states of Greece</figcaption></em>
+				</span>
+			</figure>
+		</div>
+		
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				Today Greece is a parliamentary republic with an advanced high income economy. Greece’s main industries are agriculture and tourism. Greece is European Union’s biggest producer of cotton, pistachios, olives, almonds and figs. The towns of Santorini and Mykonos are one of the top destinations for tourists in Europe, providing Greece with 20% of their gross domestic product.
+
+			</p>
+		</div>
+		
+		
+		<div class="d-flex justify-content-center">
+			<figure>
+				<img class="show-img1" src="https://loveincorporated.blob.core.windows.net/contentimages/fullsize/0f68420a-998d-43b4-800b-9bc8829ba4a1-santorini-full-guide-lead.jpg">
+				<span class="d-flex justify-content-center">
+					<em><figcaption>Santorini, an island of Greece</figcaption></em>
+				</span>
+			</figure>
+		</div>
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				Greece has many coastlines along the Agean Sea, Ionian Sea, Cretan Sea and the Mediterranean Sea along with 6,000 islands, of which 227 is inhabited. The capital Athens is one of the oldest cities with early settlements as far back as 11,000 BC. Besides the many islands and sea fronts, Greece is 80% mountainous. Climate of Greece is Mediterranean with mild winters and hot dry summers.
+			</p>
+		</div>
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<figure>
+				<img class="show-img1" src="https://cdn.britannica.com/66/102266-050-FBDEFCA1/acropolis-city-state-Greece-Athens.jpg">
+				<span class="d-flex justify-content-center">
+					<em><figcaption>Athens, Greece</figcaption></em>
+				</span>
+			</figure>
+		</div>
+		
+		
+
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<h3 class="show-factsh3">
+				Two unique facts about Greece
+			</h3>
+		</div>
+			
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				The Parthenon was built as a temple in Athens to honor the goddess Athena, whom Athenians worshipped in the 4th century BC. The Greeks made good use of all their temples, so although The Parthenon was a temple, it was also used as the city’s treasury. It was later converted to a Christian church dedicated to Virgin Mary in 6th century AD. The Parthenon was built mainly using marble, and even though it was damaged during many wars, it was refurbished many times and after 2,600 years later it still stands today.
+			</p>
+		</div>
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<figure>
+				<img class="show-img1" src="https://www.ancient-origins.net/sites/default/files/field/image/Parthenon.jpg">
+				<span class="d-flex justify-content-center">
+					<em><figcaption>The Parthenon in Athens, Greece</figcaption></em>
+				</span>
+			</figure>
+		</div>
+		
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				Labyrinth was a complex structure created in the Greek mythology. It was built for the Minoan King to hold the Minotaur, the legendary bull monster which was eventually killed by the hero Theseus, the mythical king of Athens. The labyrinth was a confusing structure and Theseus had to mark his way through the labyrinth to find his way to the Minotaur and was able to come back out of it. Even though the word maze is synonymous with labyrinth they are not exactly the same thing. Though just as confusing, a maze may have many different branches that lead to the center of the puzzle, a labyrinth has a single path to the center. There are a few labyrinth-like structures in the island of Crete that led to many debates about the possible actual location of the labyrinth that held the Minotaur. However, historians came to the conclusion that although these structures can be the inspiration to the story, the Labyrinth and the Minotaur are indeed are a part of mythology rather than history.
+			</p>
+		</div>
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<figure>
+				<img class="show-img1" src="https://live.staticflickr.com/65535/47948615882_45f4a20093_b.jpg">
+				<span class="d-flex justify-content-center">
+					<em><figcaption>Labyrinth on the island of Crete</figcaption></em>
+				</span>
+			</figure>
+		</div>
+		
+		
+		
+		
+		
+		<% if(currentUser && currentUser.lessonsComplete.length > 1){ %>
+			<% currentUser.lessonsComplete.forEach(function(lesson){ %>
+				<% if(lesson == "greece"){ %>
+					<% lessonComplete = true %>
+					<div class="d-flex justify-content-center">
+						<a href="/countries" class="show-returnHomebtn btn btn-light">
+							Return to Program	
+						</a>
+					</div>
+				<% } %>
+			<% }) %>
+		
+			<% if(lessonComplete != true) {%>
+					<form action="/countries/greece/account" method="POST">
+						<div class="d-flex justify-content-center">
+							<button class="show-incompleteLessonbtn btn btn-success">
+								Complete Lesson
+							</button>
+						</div>
+					</form>
+				<% } %>
+		<% } %>
+		
+		
+		
+		<% if(!currentUser) { %>
+			<div class="d-flex justify-content-center">
+				<a href="/countries" class="show-returnHomebtn btn btn-light">
+					Return to Program	
+				</a>
+			</div>
+		<% } %>
+		
+	
+		
+	</body>
+	
+	
+</html>

@@ -1,0 +1,571 @@
+/* landing page css
+ */
+
+.landing-body {
+	background-image: url("https://i.ytimg.com/vi/XBPjVzSoepo/maxresdefault.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Cairo', sans-serif;
+}
+
+.viewHome-div {
+	margin-top: 15%;
+	margin-left: 22%;
+	margin-right: 22%;
+}
+
+.viewHome-div2 {
+	margin-top: 10px;
+}
+
+.landing-div2 {
+	color: white;
+}
+
+.landing-span {
+	margin-top: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-height: 20px;
+}
+
+.landing-body a {
+	width: 150px;
+}
+
+.landing-h1 {
+	color: white;
+	margin-top: 100px;
+}
+
+
+
+
+/* homepage css */
+
+.homepage-html {
+	height: 100%;
+}
+
+.homepage-body {
+	color: white;
+	font-family: 'Cairo', sans-serif;
+	text-align: center;
+}
+
+.homepage-h1 {
+	margin-top: 20px;
+}
+
+.homepage-btn {
+	width: 500px;
+	margin-top: 30px;
+}
+
+.homepage-div1 {
+	background-image: url("https://www.teahub.io/photos/full/163-1636241_italy-rome-the-colosseum.jpg");
+	height: 700px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.homepage-div2 {
+	background-color: grey;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 30vw;
+	padding-right: 30vw;
+	/* padding-left: 600px;
+	padding-right: 600px; */
+}
+
+
+
+.homepage-span1 {
+	margin-top: 20px;
+}
+
+.homepage-commentsbtn {
+	margin-top: 20px;
+	width: 400px;
+}
+
+
+.homepage-h2 {
+	margin-bottom: 20px;
+}
+
+.homepage-navbar {
+	height: 50px;
+}
+
+.homepage-navbar ul {
+	margin-right: 200px;
+	margin-left: 200px;
+}
+
+.homepage-screenNameli {
+	padding: 0.5rem;
+	color: white;
+}
+
+.homepage-p1 {
+	/* text-indent: 30px; */
+}
+
+
+.homepage-p2 {
+	/* text-indent: 30px; */
+}
+
+
+
+/* countries page css */
+
+.countries-body {
+	width: 100%;
+	font-family: 'Cairo', sans-serif;
+	margin-right: 0px;
+}
+
+.countries-card {
+	width: 500px;
+	height: 535px;
+	background-image: url("https://files.123freevectors.com/wp-content/original/126400-old-parchment-texture-background.jpg");
+	float: left;
+	margin-right: 200px;
+	margin-bottom: 100px;
+}
+
+.countries-card:nth-child(3n) {
+	float: right;
+	margin-right: 0px;
+}
+
+@media (max-width: 1915px) {
+    .countries-card:nth-child(2n+1) {
+		width: 500px;
+		height: 535px;
+		float: right;
+		background-image: url("https://files.123freevectors.com/wp-content/original/126400-old-parchment-texture-background.jpg");
+		margin-right: 0px;
+		margin-left: 10vw;
+		margin-bottom: 100px;
+	}
+
+	.countries-card:nth-child(2n+2) {
+		float: left;
+		margin-right: 10vw;
+	}
+}
+
+@media (max-width: 1270px) {
+    .countries-card {
+		width: 500px;
+		height: 535px;
+		/* float: right; */
+		background-image: url("https://files.123freevectors.com/wp-content/original/126400-old-parchment-texture-background.jpg");
+		margin-bottom: 100px;
+	}
+}
+
+.countries-flag {
+	width: 70%;
+	height: 70%;
+	margin-left: 15%;
+}
+
+.countries-flag {
+	margin-top: 30px;
+	width: 302px;
+	height: 201px;
+	margin-right: 70px;
+}
+
+.countries-showbtn {
+	margin-top: 20px;
+	width: 250px;
+}
+
+.countries-countrytext {
+	text-align: center;
+}
+
+.countries-topDiv2 {
+	background: url("https://16lots.com/wp-content/uploads/light-paper-bg-1.jpg");
+	height: 220px;
+	width: 1000px;
+	margin-bottom: 100px;
+	margin-top: 60px;
+}
+
+.countries-topImg {
+	width: 1000px;
+	height: 600px;
+}
+
+.countries-h4 {
+	margin-top: 50px;
+}
+
+.countries-topCountrybtn {
+	margin-top: 20px;
+	width: 400px;
+}
+
+.countries-topCountryh5 {
+	margin-top: 20px;
+}
+
+.countries-completedbtn {
+	width: 500px;
+	position: absolute;
+	bottom: 30px;
+}
+
+
+/* register page css */
+
+.register-body {
+	background-image: url("https://i2.wp.com/nicojannasch.com/wp-content/uploads/2019/08/Italian-Countryside.jpg?fit=2048%2C975&ssl=1");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Cairo', sans-serif;
+}
+
+.register-h1 {
+	color: white;
+	margin-top: 100px;
+}
+
+.register-formdiv {
+	margin-top: 7.5%;
+}
+
+.register-formdiv label {
+	color: white;
+	margin-top: 20px;
+}
+
+.register-input {
+	text-align: center;
+	width: 400px;
+}
+
+#register-formgroup {
+	text-align: center;
+}
+
+.register-submitbtn {
+	width: 300px;
+	margin-top: 20px;
+}
+
+
+/* login page css */
+
+.login-body {
+	background-image: url("https://europeansmallislands.net/wp-content/uploads/sites/284/2018/05/iStock-686696236.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Cairo', sans-serif;
+}
+
+.login-h1 {
+	color: white;
+	margin-top: 100px;
+}
+
+.login-formdiv {
+	margin-top: 7.5%;
+}
+
+.login-formdiv label {
+	color: white;
+	margin-top: 20px;
+}
+
+.login-input {
+	text-align: center;
+	width: 400px;
+}
+
+#login-formgroup {
+	text-align: center;
+}
+
+.login-submitbtn {
+	width: 300px;
+	margin-top: 20px;
+}
+
+
+/* show page css */
+
+.show-body {
+	border-radius: 15px;
+	background: url("https://cdn.wallpapersafari.com/35/46/pm6cBT.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Cairo', sans-serif;
+}
+
+.show-h1 {
+	margin-top: 30px;
+}
+
+.show-flag {
+	width: 550px;
+	height: 366px;
+	margin-top: 25px;
+}
+
+.show-body h4 {
+	margin-top: 20px;
+}
+
+.show-firstquickfacth4 {
+	margin-top: 25px;
+}
+
+.show-quickfactsh4 {
+	margin-top: 15px;
+}
+
+.show-hr1 {
+	margin-top: 100px;
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.show-text {
+	width: 1000px;
+	margin-top: 40px;
+}
+
+.show-img1 {
+	margin-top: 100px;
+	width: 819px;
+	height: 525px;
+}
+
+.show-img2 {
+	margin-top: 100px;
+	width: 1260px;
+	height: 485px;
+}
+
+.show-map {
+	margin-bottom: 40px;
+}
+
+
+.show-factsh3 {
+	margin-top: 70px;
+}
+
+.show-body p {
+	font-size: 20px;
+}
+
+.show-body figcaption {
+	margin-bottom: 35px;
+}
+
+.show-returnHomebtn {
+	width: 500px;
+	margin-top: 100px;
+}
+
+.show-incompleteLessonbtn {
+	width: 500px;
+	margin-top: 100px;
+}
+
+/* comments page css */
+
+.comments-body {
+	background-image: url("https://cdn.techexplorist.com/wp-content/uploads/2017/11/entire-sky.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Cairo', sans-serif;
+}
+
+.comments-jumbotron {
+	background-color: white;
+	text-align: center;
+	margin-bottom: 480px;
+}
+
+.comments-jumbotron2 {
+	background-color: white;
+	margin-bottom: 0px;
+	width: 700px;
+	padding-top: 20px;
+}
+
+.comments-postbtn {
+	margin-top: 0px;
+}
+
+.comments-hr {
+	margin-top: 50px;
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.comments-authorName {
+	margin-bottom: 0px;
+	font-weight: 900;
+}
+
+.comments-editDeletediv {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.comments-comment {
+	margin-bottom: 0.2rem;
+}
+
+.comments-editbtn {
+	margin-right: 5px;
+}
+
+/* comments new page css */
+
+.commentsNew-body {
+	background-image: url("https://i1.adis.ws/i/canon/canon-get-inspired-starry-skies-1-1920x1080-notint?qlt=80&w=100%&sm=aspect&aspect=16:9&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Cairo', sans-serif;
+}
+
+
+.commentsNew-h1 {
+	margin-top: 15%;
+	color: white;
+}
+
+.commentsNew-text {
+	width: 300px;
+	height: 100px;
+	margin-top: 30px;
+	background-color: rgba(255,255,255, 0.8);
+	border-radius: 15px;
+}
+
+.commentsNew-btn {
+	margin-top: 20px;
+	width: 250px;
+}
+
+
+/* account page css */
+
+.account-body {
+	background-image: url("https://img.locationscout.net/images/2020-10/view-on-the-alpsee-from-neuschwanstein-germany_l.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Cairo', sans-serif;
+}
+
+.account-h1 {
+	color: white;
+	margin-top: 13%;
+}
+
+.account-body h4 {
+	color: white;
+}
+
+.account-screenNamebtn {
+	width: 250px;
+	margin-left: 40px;
+}
+
+.account-usernamebtn {
+	width: 250px;
+	margin-left: 75px;
+}
+
+.account-passwordbtn {
+	width: 250px;
+	margin-left: 80px;
+}
+
+.account-accountdiv {
+	margin-bottom: 30px;
+}
+
+.account-accountdiv1 {
+	margin-top: 30px;
+}
+
+.account-editbtn {
+	width: 200px;
+	margin-top: 20px;
+}
+
+
+/* account edit page css */
+
+.accountEdit-body {
+	background-image: url("https://cdn.wallpapersafari.com/39/83/NAgCyb.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Cairo', sans-serif;
+	color: white;
+}
+
+.accountEdit-h1 {
+	margin-top: 10%;
+}
+
+.accountEdit-div {
+	margin-top: 7.5%;
+}
+
+.accountEdit-div input { 
+	width: 400px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.accountEdit-submit {
+	width: 300px;
+}
+
+.accountEdit-p {
+	margin-bottom: 8px;
+}
+
+
+/* comments edit page css */
+
+.commentsEdit-body {
+	background-image: url("https://s1.1zoom.me/b5050/688/Monaco_Coast_Monte_Carlo_Houses_Night_From_above_579078_3840x2400.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	font-family: 'Cairo', sans-serif;
+}
+
+.commentsEdit-h1 {
+	margin-top: 10%;
+}
+
+.commentsEdit-textarea {
+	margin-top: 50px;
+	border-radius: 15px;
+	width: 300px;
+	height: 95px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.commentsEdit-btn {
+	margin-top: 20px;
+	width: 200px;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 			 crossorigin="anonymous">
+		<link rel="stylesheet" href="../stylesheets/main.css">
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+	</head>
+	
+	
+	
+	<body class="show-body">
+		
+		
+		
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark homepage-navbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="navbar-brand" href="/countries">Program</a>
+				</li>
+			</ul>
+			
+			<% if(!currentUser) { %>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item ml-auto">
+						<a class="nav-link" href="/login">Login</a>	
+					</li>
+				
+					<li class="nav-item ml-auto">
+						<a class="nav-link" href="register">Register</a>
+					</li>
+				</ul>
+			<% } else { %>
+			
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item homepage-screenNameli">
+						Welcome, <em><%= currentUser.screenName %></em>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="/logout">Logout</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="/account">View Account</a>
+					</li>
+				</ul>
+			
+			<% } %>
+		</nav>
+		
+		
+		
+		
+		
+		<div class="d-flex justify-content-center show-name">
+			<h1 class="show-h1">
+				<%= country.name %>
+			</h1>
+		</div>
+		
+		<div class="d-flex justify-content-center show-lesson">
+			<h5 class="show-h5">
+				Lesson <%= country.lesson %>
+			</h5>
+		</div>
+			
+		<div class="d-flex justify-content-center">
+			<img class="show-flag" src="<%=country.flag%>">
+		</div>
+		
+		<div class='d-flex justify-content-center show-year'>
+			<h4>Year Founded: <%= country.yearFounded %></h4>
+		</div>
+		
+		<div class="d-flex justify-content-center show-population">
+			<h4>Population: <%= country.population %></h4>
+		</div>
+		
+		<div class="d-flex justify-content-center show-government">
+			<h4>Form of Government: <%= country.government %></h4>
+		</div>
+		
+		<div class="d-flex justify-content-center show-gdp">
+			<h4>Gross Domestic Product: <%= country.gdp %></h4>
+		</div>
+		
+		
+		<hr class="show-hr1">	
+		
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text show-text1">
+				<%= country.text1 %>
+			</p>
+		</div>
+		
+		
+		<div class="d-flex justify-content-center">
+			<img class="show-img1" src="<%=country.image1%>">
+		</div>
+		
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text show-text2">
+				<%= country.text2 %>
+			</p>
+		</div>
+		
+		
+		<div class="d-flex justify-content-center">
+			<img class="show-img2" src="<%=country.image2%>">
+		</div>
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text show-text3">
+				<%= country.text3 %>
+			</p>
+		</div>
+		
+		
+		<div class="d-flex justify-content-center">
+			<img class="show-img3" src="<%=country.image3%>">
+		</div>
+		
+		
+		
+	</body>
+	
+	
+</html>

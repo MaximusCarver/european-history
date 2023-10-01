@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 			 crossorigin="anonymous">
+		<link rel="stylesheet" href="../stylesheets/main.css">
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+	</head>
+	
+	
+	
+	<body class="show-body">
+		
+		
+		
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark homepage-navbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="navbar-brand" href="/countries">Program</a>
+				</li>
+			</ul>
+			
+			<% if(!currentUser) { %>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item ml-auto">
+						<a class="nav-link" href="/login">Login</a>	
+					</li>
+				
+					<li class="nav-item ml-auto">
+						<a class="nav-link" href="register">Register</a>
+					</li>
+				</ul>
+			<% } else { %>
+			
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item homepage-screenNameli">
+						Welcome, <em><%= currentUser.screenName %></em>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="/logout">Logout</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="/account">View Account</a>
+					</li>
+				</ul>
+			
+			<% } %>
+		</nav>
+		
+		
+		
+		
+		
+		<div class="d-flex justify-content-center show-name">
+			<h1 class="show-h1">
+				Vatican City
+			</h1>
+		</div>
+		
+		<div class="d-flex justify-content-center show-lesson">
+			<h5 class="show-h5">
+				Lesson 21
+			</h5>
+		</div>
+			
+		<div class="d-flex justify-content-center">
+			<img class="show-flag" src="https://www.vaticancitytours.it/wp-content/uploads/2019/06/Vatican-City-flag.jpg">
+		</div>
+		
+		<div class='d-flex justify-content-center show-firstquickfacth4'>
+			<h4>Capital: Vatican City (City-State)</h4>
+		</div>
+		
+		<div class='d-flex justify-content-center show-quickfactsh4'>
+			<h4>Population: 825</h4>
+		</div>
+		
+		<div class='d-flex justify-content-center show-quickfactsh4'>
+			<h4>Gross Domestic Product (GDP): 21.2 million dollars</h4>
+		</div>
+		
+		<div class='d-flex justify-content-center show-quickfactsh4'>
+			<h4>Gross Domestic Product (GDP) Per Capita: 21,000</h4>
+		</div>
+		
+		
+		
+		<hr class="show-hr1">	
+		
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<figure>
+				<img class="show-img1 show-map" src="https://upload.wikimedia.org/wikipedia/commons/9/97/Vatican_City_in_Europe.svg">
+				<span class="d-flex justify-content-center">
+				</span>
+			</figure>
+		</div>
+		
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				Vatican City is a city-state that is on an area in Rome, Italy on less than 0.2 (0.5km sq) square miles of land and has 800 residents. Vatican City became independent from Italy with the Lateran Treaty in 1929. It is a distinct territory with full authority and jurisdiction of the Bishop of Rome known as the the Holy See.
+			</p>
+		</div>
+		
+		
+		<div class="d-flex justify-content-center">
+			<figure>
+				<img class="show-img1" src="https://i.ytimg.com/vi/NXnSZ2-eSr0/maxresdefault.jpg">
+				<span class="d-flex justify-content-center">
+					<em><figcaption>Center of Vatican City</figcaption></em>
+				</span>
+			</figure>
+		</div>
+		
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				From 8th century to 18th century Italy was divided into Papal States, and was ruled by the Catholic church. The Pope that ruled the states did not live in Vatican, but lived in Lateran Palace in South Rome. But around 16th century they moved to Quirinal Palace in Rome. After the unification of Italy in 1870, the King of Italy took over the Quirinal Palace, and the popes were moved to Vatican. They resided there undisturbed with many papal prerogatives. However, the popes did not recognize the Italian King’s right to rule Rome, and refused to leave Vatican compound until an agreement was reached. The last papal ruler Pope Pius IX was considered a “prisoner in the Vatican” before the Lateran Treaty was signed. The Lateran Treaty was finally signed in 1929 between Pope Pius IX and Benito Mussolini establishing the independent state of Vatican City.
+ 
+During World War II Vatican City was left unharmed, even though surrounding areas in Rome was bombed.
+			</p>
+		</div>
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<figure>
+				<img class="show-img1" src="https://api.time.com/wp-content/uploads/2019/10/popefrancis.jpg?w=824&h=458&quality=70">
+				<span class="d-flex justify-content-center">
+					<em><figcaption>Pope Francis of Vatican City</figcaption></em>
+				</span>
+			</figure>
+		</div>
+		
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				Today Vatican City is run as an absolute elective monarchy with pope as the head of the Catholic Church. The Vatican has no military defense of its own, however military defense is provided by the Italian Armed Forces. Also, the Holy See provides the Pontifical Swiss Guard as an honor guard to protect the pope.
+			</p>
+		</div>
+		
+		
+		<div class="d-flex justify-content-center">
+			<figure>
+				<img class="show-img1" src="https://cdn.britannica.com/61/190561-050-E0B42EFA/Pontifical-Swiss-Guards-election-Vatican-City-April-19-2005.jpg">
+				<span class="d-flex justify-content-center">
+					<em><figcaption>Pontifical Swiss Guard</figcaption></em>
+				</span>
+			</figure>
+		</div>
+		
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				Economy of Vatican City is provided with Vatican City Museums, stamp and coin sales as well as tourist souvenir sales.
+			</p>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<h3 class="show-factsh3">
+				Two unique facts about Vatican City
+			</h3>
+		</div>
+			
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				Half of the people of Vatican City reside inside the city walls. The population is made of clergy, religious members and service people, such as the Swiss Guard, and their families. All citizens are Catholic.
+			</p>
+		</div>
+		
+		
+		
+
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				The official language in Vatican City is Italian, even though Holly See uses Latin as the primary corresponding language. Italian is used among all the people that work in the Vatican except the Swiss Guards, who speak Swiss German.
+			</p>
+		</div>
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<figure>
+				<img class="show-img1" src="https://travelpast50.com/wp-content/uploads/2016/01/st-john-lateran-rome-5.jpg">
+				<span class="d-flex justify-content-center">
+					<em><figcaption>Basilica di San Giovanni in Laterano</figcaption></em>
+				</span>
+			</figure>
+		</div>
+		
+		
+		
+		
+		<% if(currentUser && currentUser.lessonsComplete.length > 1){ %>
+			<% currentUser.lessonsComplete.forEach(function(lesson){ %>
+				<% if(lesson == "vaticanCity"){ %>
+					<% lessonComplete = true %>
+					<div class="d-flex justify-content-center">
+						<a href="/countries" class="show-returnHomebtn btn btn-light">
+							Return to Program	
+						</a>
+					</div>
+				<% } %>
+			<% }) %>
+		
+			<% if(lessonComplete != true) {%>
+					<form action="/countries/vaticanCity/account" method="POST">
+						<div class="d-flex justify-content-center">
+							<button class="show-incompleteLessonbtn btn btn-success">
+								Complete Lesson
+							</button>
+						</div>
+					</form>
+				<% } %>
+		<% } %>
+		
+		
+		
+		<% if(!currentUser) { %>
+			<div class="d-flex justify-content-center">
+				<a href="/countries" class="show-returnHomebtn btn btn-light">
+					Return to Program	
+				</a>
+			</div>
+		<% } %>
+		
+	
+		
+	</body>
+	
+	
+</html>

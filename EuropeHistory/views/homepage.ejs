@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html class="homepage-html">
+	
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 			 crossorigin="anonymous">
+		<link rel="stylesheet" href="stylesheets/main.css">
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+	</head>
+	
+	
+	<body class="homepage-body">
+		
+		
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark homepage-navbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="navbar-brand" href="homepage">European History</a>
+				</li>
+			</ul>
+			
+			<% if(!currentUser) { %>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item ml-auto">
+						<a class="nav-link" href="/login">Login</a>	
+					</li>
+				
+					<li class="nav-item ml-auto">
+						<a class="nav-link" href="register">Register</a>
+					</li>
+				</ul>
+			<% } else { %>
+			
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item homepage-screenNameli">
+						Welcome, <em><%= currentUser.screenName %></em>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="/logout">Logout</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="/account">View Account</a>
+					</li>
+				</ul>
+			
+			<% } %>
+		</nav>
+		
+		
+		
+		<div class="d-flex justify-content-center homepage-div1">
+			<h1 class="homepage-h1">
+				European History
+			</h1>
+		</div>
+		
+			
+		
+			<div class="homepage-div2">
+				<div class="d-flex justify-content-center">
+					<h2 class="homepage-h2">
+						About
+					</h2>
+				</div>
+
+				<p class="d-flex justify-content-center homepage-p1">
+					From Portugal to Russia, from Belgium to Italy, the continent of Europe is one of the most culturally diverse continents in the world. Consisting of fifty countries and over 800 million people, the cultural, political, and economic changes of Europe have impacted the entire planet. The continent of Europe is seperated from Asia by the Ural Mountain ranges in Russia down to the black sea, as well as the Straight of Gibraltar between Spain and Morocco. 
+				</p>
+
+				<p class="d-flex justify-content-center homepage-p2">
+					Europe countains diverse and considerably unique topographies, ranging from the static flatlands of the Netherlands to the Caucasus Mountains, towering at nearly twenty thousand feet. Europe also contains one of the most diverse climates in the world, from the warm and dry Spain to the cold and snowy Finland. Throughout the course, students will learn of the extensive history and unique geography of the countries of Europe, the origin of much of the modern world. Let’s embark on this journey through history. 
+				</p>
+				
+			
+			<div class="d-flex justify-content-center">
+				<a href="/countries" class="btn btn-light homepage-btn">
+					View Program
+				</a>
+			</div>
+			
+			<div class="d-flex justify-content-center">
+				<span class="homepage-span1">Or</span>
+			</div>
+			
+			<div class="d-flex justify-content-center">
+				<a href="/comments" class="btn btn-light homepage-commentsbtn">
+					View our Comments Forum
+				</a>
+			</div>
+		</div>
+		
+		
+	</body>
+	
+	
+</html>

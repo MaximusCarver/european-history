@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 			 crossorigin="anonymous">
+		<link rel="stylesheet" href="../stylesheets/main.css">
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+	</head>
+	
+	
+	
+	<body class="show-body">
+		
+		
+		
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark homepage-navbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="navbar-brand" href="/countries">Program</a>
+				</li>
+			</ul>
+			
+			<% if(!currentUser) { %>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item ml-auto">
+						<a class="nav-link" href="/login">Login</a>	
+					</li>
+				
+					<li class="nav-item ml-auto">
+						<a class="nav-link" href="register">Register</a>
+					</li>
+				</ul>
+			<% } else { %>
+			
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item homepage-screenNameli">
+						Welcome, <em><%= currentUser.screenName %></em>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="/logout">Logout</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="/account">View Account</a>
+					</li>
+				</ul>
+			
+			<% } %>
+		</nav>
+		
+		
+		
+		
+		
+		<div class="d-flex justify-content-center show-name">
+			<h1 class="show-h1">
+				Luxembourg
+			</h1>
+		</div>
+		
+		<div class="d-flex justify-content-center show-lesson">
+			<h5 class="show-h5">
+				Lesson 19
+			</h5>
+		</div>
+			
+		<div class="d-flex justify-content-center">
+			<img class="show-flag" src="https://cdn.britannica.com/23/2223-050-6771361A/Flag-Luxembourg.jpg">
+		</div>
+		
+		<div class='d-flex justify-content-center show-firstquickfacth4'>
+			<h4>Capital: Luxembourg City</h4>
+		</div>
+		
+		<div class='d-flex justify-content-center show-quickfactsh4'>
+			<h4>Population: 614,000 million</h4>
+		</div>
+		
+		<div class='d-flex justify-content-center show-quickfactsh4'>
+			<h4>Gross Domestic Product (GDP): 71 billion dollars</h4>
+		</div>
+		
+		<div class='d-flex justify-content-center show-quickfactsh4'>
+			<h4>Gross Domestic Product (GDP) Per Capita: 115,000 dollars</h4>
+		</div>
+		
+		
+		
+		<hr class="show-hr1">	
+		
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<figure>
+				<img class="show-img1" src="https://www.mapsland.com/maps/europe/luxembourg/large-location-map-of-luxembourg.jpg">
+				<span class="d-flex justify-content-center">
+				</span>
+			</figure>
+		</div>
+		
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				Grand Duchy of Luxembourg is a small country in Western Europe bordered by Belgium, France and Germany. It’s history starts with Count of Ardennes named Siegfried who acquired Luxembourg Castle in 963. Siegfried’s descendants developed a small town around the castle and eventually it became a country. In 1300s Luxembourg became a power house in Europe. Three of the House of Luxembourg members were crowned as Holy Roman Emperors. In 1437 House of Luxembourg ended because there were no male descendants to take over. For the next few hundred years Luxembourg was invaded and control by different European powers. In 1815 it was given the status of Grand Duchy by the Congress of Vienna. Although Luxembourg was a neutral country, it was invaded by Germany in World War II in hopes to Germanize it. Luxembourg was liberated by the allies in 1944.
+			</p>
+		</div>
+		
+		
+		<div class="d-flex justify-content-center">
+			<figure>
+				<img class="show-img1" src="https://upload.wikimedia.org/wikipedia/commons/5/57/Selig_Luxembourg_from_Paffendall.jpg">
+				<span class="d-flex justify-content-center">
+					<em><figcaption>Luxembourg was formed from a small town built around the Luxembourg Castle</figcaption></em>
+				</span>
+			</figure>
+		</div>
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				
+Today Luxembourg is a parliamentary democracy headed by a constitutional monarch. It is a founding member of Europe Union, NATO, and United Nations. Luxembourg City, the capital, is the home of many institutions and agencies of the EU. Citizens of Luxembourg enjoy visa-free arrival to 187 countries in the world.
+			</p>
+		</div>
+		
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				Geographically Luxembourg is a completely land locked country with the size of Rhode Island. It is covered with rolling hills and low mountains such as the Ardennes, as well as several rivers like the Sauer and the Our. The climate is oceanic, with high rain falls, cool winters and warm summers.
+			</p>
+		</div>
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<figure>
+				<img class="show-img1" src="http://swensonworldgeography9.weebly.com/uploads/6/1/3/6/61362741/6047062_orig.jpg">
+				<span class="d-flex justify-content-center">
+					<em><figcaption>Luxembourg contains many rolling hills and small mountains</figcaption></em>
+				</span>
+			</figure>
+		</div>
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				
+The economy in Luxembourg is a high-income economy. Services in banking account for majority of the output. Luxembourg is the second largest investment center in the world after the United States. The government has aimed for internet start ups to take residence in the country. And since then big tech companies such as Amazon and Skype has established head quarters in Luxembourg.
+
+			</p>
+		</div>
+		
+		
+		
+		
+	
+		
+		
+		<div class="d-flex justify-content-center">
+			<h3 class="show-factsh3">
+				Two unique facts about the Luxembourg
+			</h3>
+		</div>
+			
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				People of Luxembourg speak a variety of languages. The national language is Luxembourgish, which is a blend of German, Dutch and French. However, the
+government uses French, the newspapers are usually in German, and most people speak English as well!
+
+			</p>
+		</div>
+		
+		
+		
+	
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				
+				Luxembourg was established as a Grand Duchy in 963, and today it is the only country in the world ruled by a grand duke. In 1919, Grand Duchess of Charlotte put the royal family up for a public vote to see if the people wanted them in power or wanted them gone. The people voted to keep the grand duchy.
+			</p>
+		</div>
+		
+		
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<figure>
+				<img class="show-img1" src="https://assets.prod.app.luxembourg-city.com/data/media/7f92af57-3455-486e-aed4-02b35fc020f0.jpg">
+				<span class="d-flex justify-content-center">
+					<em><figcaption>The Grand Ducal, residence of the Duke of Luxembourg</figcaption></em>
+				</span>
+			</figure>
+		</div>
+		
+		
+		
+		
+		
+		<% if(currentUser && currentUser.lessonsComplete.length > 1){ %>
+			<% currentUser.lessonsComplete.forEach(function(lesson){ %>
+				<% if(lesson == "luxembourg"){ %>
+					<% lessonComplete = true %>
+					<div class="d-flex justify-content-center">
+						<a href="/countries" class="show-returnHomebtn btn btn-light">
+							Return to Program	
+						</a>
+					</div>
+				<% } %>
+			<% }) %>
+		
+			<% if(lessonComplete != true) {%>
+					<form action="/countries/luxembourg/account" method="POST">
+						<div class="d-flex justify-content-center">
+							<button class="show-incompleteLessonbtn btn btn-success">
+								Complete Lesson
+							</button>
+						</div>
+					</form>
+				<% } %>
+		<% } %>
+		
+		
+		
+		<% if(!currentUser) { %>
+			<div class="d-flex justify-content-center">
+				<a href="/countries" class="show-returnHomebtn btn btn-light">
+					Return to Program	
+				</a>
+			</div>
+		<% } %>
+		
+		
+	
+		
+	
+		
+	</body>
+	
+	
+</html>

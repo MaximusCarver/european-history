@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 			 crossorigin="anonymous">
+		<link rel="stylesheet" href="../stylesheets/main.css">
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+	</head>
+	
+	
+	
+	<body class="show-body">
+		
+		
+		
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark homepage-navbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="navbar-brand" href="/countries">Program</a>
+				</li>
+			</ul>
+			
+			<% if(!currentUser) { %>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item ml-auto">
+						<a class="nav-link" href="/login">Login</a>	
+					</li>
+				
+					<li class="nav-item ml-auto">
+						<a class="nav-link" href="register">Register</a>
+					</li>
+				</ul>
+			<% } else { %>
+			
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item homepage-screenNameli">
+						Welcome, <em><%= currentUser.screenName %></em>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="/logout">Logout</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="/account">View Account</a>
+					</li>
+				</ul>
+			
+			<% } %>
+		</nav>
+		
+		
+		
+		
+		
+		<div class="d-flex justify-content-center show-name">
+			<h1 class="show-h1">
+				Turkey
+			</h1>
+		</div>
+		
+		<div class="d-flex justify-content-center show-lesson">
+			<h5 class="show-h5">
+				Lesson 24
+			</h5>
+		</div>
+			
+		<div class="d-flex justify-content-center">
+			<img class="show-flag" src="https://cdn.britannica.com/82/4782-004-4119489D/Flag-Turkey.jpg">
+		</div>
+		
+		<div class='d-flex justify-content-center show-firstquickfacth4'>
+			<h4>Capital: Ankara</h4>
+		</div>
+		
+		<div class='d-flex justify-content-center show-quickfactsh4'>
+			<h4>Population: 82 million</h4>
+		</div>
+		
+		<div class='d-flex justify-content-center show-quickfactsh4'>
+			<h4>Gross Domestic Product (GDP): 761 billion dollars</h4>
+		</div>
+		
+		<div class='d-flex justify-content-center show-quickfactsh4'>
+			<h4>Gross Domestic Product (GDP) Per Capita: 9,000 dollars</h4>
+		</div>
+		
+		
+		
+		<hr class="show-hr1">	
+		
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<figure>
+				<img class="show-img1 show-map" src="https://upload.wikimedia.org/wikipedia/commons/5/55/Turkey_in_Europe_%28-rivers_-mini_map%29.svg">
+				<span class="d-flex justify-content-center">
+				</span>
+			</figure>
+		</div>
+		
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				Republic of Turkey is an intercontinental country that bridge western Asia, mainly on the Anatolian peninsula to eastern Europe. Turkey was inhabited as early as 9500 BC according to archeological sites. The first empire to form in this area was the Hittites in 18th century BC. The Assyrians conquered the Hittites and ruled until the 13th century BC. In the 4th century BC Alexander the Great conquered the area and ruled until Selcuk Turks took over the land and ruled until conquered by the Mongol’s in 11th century AD. At this point Selcuk Turks separated into many divisions. Late in the 13th century the Ottoman’s gathered all the divisions and united them under the Ottoman Empire until the 19th century.
+			</p>
+		</div>
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<figure>
+				<img class="show-img1" src="https://static.wixstatic.com/media/f11647_b0b6150f8a4447b6aa28bbc66a1d9886~mv2.jpg/v1/fill/w_690,h_460,al_c,q_90/f11647_b0b6150f8a4447b6aa28bbc66a1d9886~mv2.jpg">
+				<span class="d-flex justify-content-center">
+					<em><figcaption>The Selcuk Turks ruled Turkey for many centuries</figcaption></em>
+				</span>
+			</figure>
+		</div>
+		
+		
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				After their defeat along with Germany in World War I, Ottoman Empire was divided up into many states by the allied powers. This caused the Turkish Independence War against the Allies, as well as to abolish the Sultan. In 1923
+ 
+Turkey finally won independence, overthrew the Sultan, and declared itself a republic.
+
+			</p>
+		</div>
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<figure>
+				<img class="show-img1" src="https://www.wallpaperflare.com/static/507/943/594/islam-ottoman-empire-hagia-sophia-fossati-brothers-wallpaper.jpg">
+				<span class="d-flex justify-content-center">
+					<em><figcaption>The Hagia Sophia, or Blue Mosque, was a sacred building for the Ottoman Empire</figcaption></em>
+				</span>
+			</figure>
+		</div>
+		
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				Today Turkey is a secular parliamentary republic that is a long time member of the NATO. Turkey’s unique location in the world has always been an important factor for its economy and politics.
+			</p>
+		</div>
+		
+
+		
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				Turkey is considered a transcontinental Eurasian country, that has 97% of the land on Asian continent which is separated by the Bosphorus Sea from the 3% of the land located in Europe. Turkey geographically is divided into several regions like Marmara, Black Sea, Agean, South and Eastern Anatolia. Each region experiences different climates. Agean and South Anatolia Region has mild winters, dry hot summers. Black Sea has wet and cold winters and humid and wet summers. Eastern Anatolia has very cold snowy winters and dry hot summers.
+			</p>
+		</div>
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<figure>
+				<img class="show-img1" src="https://img.itinari.com/regions/tr-southeastern-anatolia-region.jpg?ch=DPR&dpr=1&w=1600&s=7963fc2cec0fc7bd9860e7c0b32b1c8b">
+				<span class="d-flex justify-content-center">
+					<em><figcaption>Southeast Anatolia region of Turkey</figcaption></em>
+				</span>
+			</figure>
+		</div>
+		
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				Turkey’s economy relies on consumer goods, banking and tourism. Turkey has many different ancient touristic sites to see like Neolithic Çatalhöyük, Hittite Capital Hattusa, Archeological site of Troy, Ephesus, Halicarnassus, Cappadocia and many more. Turkey also has many beaches from the Agean to the Mediterranean.
+			</p>
+		</div>
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<figure>
+				<img class="show-img1" src="https://i.hurimg.com/i/hdn/75/0x0/5cc305f3c03c0e264c998b7b.jpg">
+				<span class="d-flex justify-content-center">
+					<em><figcaption>Cappadocia in central Anatolia, Turkey</figcaption></em>
+				</span>
+			</figure>
+		</div>
+		
+		
+
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<h3 class="show-factsh3">
+				Two unique facts about Turkey
+			</h3>
+		</div>
+			
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				Pamukkale or Cotton Castle is one the of the biggest tourist attractions in Turkey. It is a natural site that is known for its thermal blue landing pools made from the calcium deposits left behind from the River flowing down the mountains.
+			</p>
+		</div>
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<figure>
+				<img class="show-img1" src="http://alineport.com/sites/default/files/field/image/traveladvice/castle-cotton-turkey.jpg">
+				<span class="d-flex justify-content-center">
+					<em><figcaption>Pamukkale in Denizli province, Turkey</figcaption></em>
+				</span>
+			</figure>
+		</div>
+		
+		
+		<div class="d-flex justify-content-center">
+			<p class="show-text">
+				Turkish Angora cat is a breed of domestic cat that has been bred in Turkey for centuries originating from the city of Ankara. It is a silky-long haired white cat that has often two different eye colors. Besides their unique looks, Turkish Angoras are known to be highly intelligent and easy to train, even deaf ones!
+			</p>
+		</div>
+		
+		
+		
+		<div class="d-flex justify-content-center">
+			<figure>
+				<img class="show-img1" src="https://www.ovrs.com/blog/wp-content/uploads/2021/02/Cat-with-2-color-eyes-AdobeStock_320427812-scaled.jpeg">
+				<span class="d-flex justify-content-center">
+					<em><figcaption>Turkish Angora cat</figcaption></em>
+				</span>
+			</figure>
+		</div>
+		
+		
+		
+		<% if(currentUser && currentUser.lessonsComplete.length > 1){ %>
+			<% currentUser.lessonsComplete.forEach(function(lesson){ %>
+				<% if(lesson == "turkey"){ %>
+					<% lessonComplete = true %>
+					<div class="d-flex justify-content-center">
+						<a href="/countries" class="show-returnHomebtn btn btn-light">
+							Return to Program	
+						</a>
+					</div>
+				<% } %>
+			<% }) %>
+		
+			<% if(lessonComplete != true) {%>
+					<form action="/countries/turkey/account" method="POST">
+						<div class="d-flex justify-content-center">
+							<button class="show-incompleteLessonbtn btn btn-success">
+								Complete Lesson
+							</button>
+						</div>
+					</form>
+				<% } %>
+		<% } %>
+		
+		
+		
+		<% if(!currentUser) { %>
+			<div class="d-flex justify-content-center">
+				<a href="/countries" class="show-returnHomebtn btn btn-light">
+					Return to Program	
+				</a>
+			</div>
+		<% } %>
+		
+	
+		
+	</body>
+	
+	
+</html>
